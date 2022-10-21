@@ -28,7 +28,8 @@ div {
 
 #tablero{
         padding-top: 30px;
-        height: 570px;
+        padding-bottom: 30px;
+        height: 90%;
         width: 90%;
         background-color: rgb(29, 29, 29);
         border-radius: 5px;
