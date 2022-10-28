@@ -59,4 +59,14 @@ function deseleccionar(selecciones) {
     let trasera2 = document.getElementById("trasera" + selecciones[1])
     let tarjeta1 = document.getElementById("tarjeta" + selecciones[0])
     let tarjeta2 = document.getElementById("tarjeta" + selecciones[1])
+
+    if (trasera1.innerHTML != trasera2.innerHTML) {
+        setTimeout(() => {
+            tarjeta1.style.transform = "rotateY(0deg)"
+            tarjeta2.style.transform = "rotateY(0deg)"
+        }, 2000);
+    }else{
+        setTimeout(() => {
+        }, 1000);        
+    }
 }
